@@ -1,0 +1,72 @@
+/* 🟢 Estilos generales de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eee; /* Fondo gris claro */
+    display: flex; /* Usa flexbox para centrar el contenido */
+    flex-direction: column; /* Alinea los elementos en columna */
+    align-items: center; /* Centra horizontalmente */
+    margin: 0;
+    padding: 0;
+}
+
+/* 🟢 Contenedor principal de las publicaciones */
+.contenedor-publicaciones {
+    width: 500px;
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1); /* Sombra para un efecto elevado */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+/* 🟢 Título principal */
+h1 {
+    text-align: center; /* Centrar el texto */
+    font-size: 24px; /* Tamaño del texto */
+    margin-bottom: 20px; /* Espaciado debajo del título */
+}
+
+/* 🟢 Cada publicación */
+.publicacion {
+    border: 1px solid #ccc; /* Borde gris claro */
+    margin-bottom: 20px; /* Espacio entre publicaciones */
+    background: white;
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+/* 🟢 Encabezado de la publicación */
+.encabezado-publicacion {
+    display: flex; /* Activa flexbox */
+    justify-content: space-between; /* Separa el título y la fecha */
+    padding: 10px;
+    border-bottom: 1px solid #ddd; /* Línea divisoria con la imagen */
+    font-weight: bold;
+    background-color: #f8f8f8; /* Fondo gris claro */
+    border-radius: 5px 5px 0 0; /* Bordes redondeados en la parte superior */
+}
+
+/* 🟢 Título de la publicación */
+.titulo-publicacion {
+    float: left; /* Alinea a la izquierda */
+}
+
+/* 🟢 Fecha de la publicación */
+.fecha-publicacion {
+    float: right; /* Alinea a la derecha */
+    color: gray; /* Color de texto gris */
+}
+
+/* 🟢 Imagen dentro del post */
+.publicacion img {
+    width: 100%; /* La imagen ocupa todo el ancho */
+    display: block; /* Evita espacios en blanco debajo de la imagen */
+    border-bottom: 1px solid #ddd; /* Línea divisoria con la descripción */
+}
+
+/* 🟢 Descripción de la publicación */
+.descripcion-publicacion {
+    font-family: 'Times New Roman', Times, serif, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.5; /* Espaciado entre líneas para mejor lectura */
+}
